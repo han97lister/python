@@ -15,3 +15,4 @@ with open( 'teams.txt', 'r' ) as file :
             print( file.readline() )
         else :
             file.readline()
+
