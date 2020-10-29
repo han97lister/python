@@ -1,5 +1,5 @@
 import pytest
-import count
+from program import count
 
 def test_count_zero() :
     assert count.count( [ 0, 0, 0 ], 0 ) == 3
